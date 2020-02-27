@@ -1,0 +1,59 @@
+    1  cd /workspace/SOS1920-Lab; clear
+    2  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    3  echo "# SOS1920-Lab" >> README.md
+    4  git init
+    5  git add README.md
+    6  git commit -m "primer commit"
+    7  git config user.email "alvmaycan@alumn.us.es"
+    8  git config user.name "Alvaro Maya"
+    9  git commit -m "primer commit"
+   10  git push -u origin master
+   11  git checkout -b l04
+   12  ls
+   13  ls l04
+   14  git push -u origin l04
+   15  ls
+   16  git commit -m "primer commit"
+   17  git add .
+   18  git commit -m "commits"
+   19  git config --global user.name "AlvaroMaya"
+   20  git config --global user.email "varo9747@gmail.com"
+   21  git commit -m "commits"
+   22  git push
+   23  git checkout master
+   24  git commit -m "first commit"
+   25  git checkout L04
+   26  git checkout l04
+   27  reboot
+   28  cd /workspace/SOS1920-Lab; clear
+   29  ls
+   30  bash
+   31  cd /workspace/SOS1920-Lab; clear
+   32  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+   33  cd /workspace/SOS1920-Lab; clear
+   34  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+   35  cd /workspace/SOS1920-Lab; clear
+   36  git checkout master
+   37  git add .
+   38  git commit -m "commit"
+   39  git checkout master
+   40  ls
+   41  node -v
+   42  npm -v
+   43  ls
+   44  npm init
+   45  ls
+   46  touch index.js
+   47  node index.js
+   48  npm install cool-ascii-faces --save
+   49  npm start
+   50  touch .gitignore
+   51  git add .
+   52  git commit -m "created ignore"
+   53  npm install
+   54  git push
+   55  ls
+   56  npm install expres --save
+   57  npm start
+   58  node index.js
+   59  history > history.txt
