@@ -1,4 +1,4 @@
-# SOS1920-Lab
+git check# SOS1920-Lab
 
 Esta es una nueva linea
 ## subtitulo 
@@ -8,8 +8,8 @@ Lista de cosas:
  - asdaf
  - dos
  
- El codigo de ejemplo es:
+El codigo de ejemplo es:
  
- 
+ '''
  console.log(texto)
  '''
